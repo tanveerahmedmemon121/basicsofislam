@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apkfeast.com.basicsofislam">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Takbeer"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/APP_ID" />
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Suplications"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DuaShow"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ablution"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Wudu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Namaz"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Setting" />
+    </application>
+
+</manifest>

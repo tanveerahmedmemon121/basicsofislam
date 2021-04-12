@@ -1,0 +1,381 @@
+<resources>
+    <string name="app_name">Basics Of Islam</string>
+    <string name="Inters">ca-app-pub-2868811788162661/6313921516</string>
+    <string name="APP_ID">ca-app-pub-2868811788162661~6505493207</string>
+    <string name="alert" translatable="false">Basic language of this app is english and all
+        other translation are done with automated tools which may have some contextual mistakes.
+        Please refer to english if there are some confusions</string>
+
+    <string name="WhenWakingUp">When Waking Up</string>
+    <string name="wearinggarment">When wearing new Garment</string>
+    <string name="someonewearnewgar">Said to someone wearing new Garment </string>
+    <string name="beforeundress">Before Undressing</string>
+    <string name="beforetoilet">Before Entering Toilet</string>
+    <string name="leavingtoilet">After Leaving Toilet</string>
+    <string name="startablution">When Starting ablution</string>
+    <string name="completeablution">Upon Completing ablution</string>
+    <string name="leavinghome">When Leaving Home</string>
+    <string name="enteringhome">Upon Entering Home</string>
+    <string name="goingtomosque">When Going To Mosque</string>
+    <string name="enteringmosque">Upon Entering Mosque</string>
+    <string name="leavemosque">Leaving Mosque</string>
+    <string name="azan">Related To Azan</string>
+    <string name="aftertakbeer">Start of Prayer (After Takbeer)</string>
+    <string name="rukooa">During Rukooaa (Bowing)</string>
+    <string name="risingrukoo">Upon Rising from Rukooa</string>
+    <string name="duringsujood">During Sujood (Prostrating)</string>
+    <string name="betweensujood">Between Two Sujood</string>
+    <string name="afterrecquran">Sujood After reciting Quran</string>
+    <string name="tashahhud">The Tashahhud</string>
+    <string name="aftertashahhud">Prayers after Tashahhud</string>
+    <string name="beforesalam">After last Tashahhud and before salam</string>
+    <string name="aftersalam">Remembrance After Salam</string>
+    <string name="istikhara">Dua For Istikhara</string>
+    <string name="inmornandeve">In Moring and Evening</string>
+    <string name="beforesleeping">Before Sleeping</string>
+    <string name="duringturningnight">During Turning over in night</string>
+    <string name="feelingunrestsleep">Upon feeling unrest and fear during sleep</string>
+    <string name="upondream">Upon seeing a dream</string>
+    <string name="qunootalwitr">Qunoot-Al-Witr</string>
+    <string name="aftersalamofwitr">After salam of witr</string>
+    <string name="foranxiety">For Anxiety and Sorrow</string>
+    <string name="oneindistress">For one in Distress</string>
+    <string name="encounteringenemy">Upon encountering and enemy</string>
+    <string name="doubtinfaith">For on having doubt in faith</string>
+    <string name="settleadebt">When settling a debt</string>
+    <string name="whisperinginprayer">When affected by whispering during prayer or Recitation</string>
+    <string name="affairsdifficult">Dua when affairs become difficult</string>
+    <string name="sin">Upon Committing a sin</string>
+    <string name="expelldevil">For expelling devil and his whispering</string>
+    <string name="mishap">Supplication when stricken with a mishap or overtaken by an affair</string>
+    <string name="childrenprotec">Placing children under Allah\'s protection</string>
+    <string name="visitingsic">When visiting sick</string>
+    <string name="sickexcel">Excellence of visiting sick</string>
+    <string name="losthopeforlife">Dua for sick who lost hope for life</string>
+    <string name="instforoneneardeath">Instructions for one near death</string>
+    <string name="affectedcalamity">When affected by calamity</string>
+    <string name="closingeyesofdeceased">When closing eyes of deceased</string>
+    <string name="atfuneral">At funeral</string>
+    <string name="market">When entering market</string>
+    <string name="wakedua1" translatable="false">اَلْحَمْدُ لِلَّهِ الَّذي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ</string>
+    <string name="tr1">All praise is for Allah who gave us life after having taken it from
+        us and unto Him is the resurrection.</string>
+    <string name="tc2" translatable="false">لا إلهَ إلاّ اللّه وحدَهُ لا شريكَ لهُ، لهُ المُلْـكُ ولهُ الحَمْـد،
+        يُحْيـي وَيُميـتُ وَهُوَ حَيٌّ لا يَمـوت،
+        بِيَـدِهِ الْخَـيْرُ وَهوَ على كلّ شيءٍ قدير</string>
+    <string name="trcase2">None has the right to be worshipped except Allah,
+        alone, without partner, to Him belongs all sovereignty and praise.
+        He gives life and causes death, and He is living and does not die.
+        In His hand is all good and He is over all things, omnipotent.</string>
+    <string name="dc1" translatable="false">اَلْحَمْدُ لِلّٰہِ الَّذِیْ کَسَانِیْ ھٰذَا وَرَزَقَنِیْہِ مِنْ غَیْرِ حَوْلٍ مِّنِّیْ وَلَاقُوَّةٍ۔</string>
+    <string name="tc1">All Praise is for Allah who has clothed me with this garment and provided it for me,
+        with no power nor might from myself.</string>
+    <string name="dc3" translatable="false">تُبْلِي وَيُخْلِفُ اللَّهُ</string>
+    <string name="tc3">May Allah prolong your life so that this clothing become old
+        and may Allah give you other clothing after this.</string>
+    <string name="dc4" translatable="false">بِسْمِ الله</string>
+    <string name="tc4">In the name of Allah.</string>
+    <string name="dc5" translatable="false">(بِسْمِ الله ) اللّهُـمَّ إِنِّـي أَعـوذُ بِـكَ مِـنَ الْخُـبْثِ وَالْخَبائِث</string>
+    <string name="tc5">(In the name of Allah). O Allah, I take refuge with you from all evil and evil-doers.</string>
+    <string name="dc6" translatable="false">غُفْـرانَك</string>
+    <string name="tc6">I ask You (Allah) for forgiveness.</string>
+    <string name="tc7" translatable="false">بِسْمِ الله</string>
+    <string name="tc7ac">In the name of Allah</string>
+    <string name="dc8" translatable="false">هَدُ أَنْ لا إِلَـهَ إِلاّ اللهُ وَحْدَهُ لا شَريـكَ لَـهُ وَأَشْهَدُ أَنَّ مُحَمّـداً عَبْـدُهُ وَرَسـولُـه</string>
+    <string name="tc8">I bear witness that none has the right to be worshipped except Allah,
+        alone without partner, and I bear witness that Muhammad is His slave and Messenger.</string>
+    <string name="dc9" translatable="false">ِسْمِ اللهِ ، تَوَكَّلْـتُ عَلى اللهِ وَلا حَوْلَ وَلا قُـوَّةَ إِلاّ بِالله</string>
+    <string name="tc9">In the name of Allah, I place my trust in Allah, and there is no might
+        nor power except with Allah.</string>
+    <string name="dc10" translatable="false">بِسْـمِ اللهِ وَلَجْنـا، وَبِسْـمِ اللهِ خَـرَجْنـا، وَعَلـى رَبِّنـا تَوَكّلْـنا</string>
+    <string name="tc10">In the name of Allah we enter and in the name of Allah we leave, and upon our Lord
+        we place our trust.</string>
+    <string name="dc11" translatable="false">عوذُ باللهِ العَظيـم وَبِوَجْهِـهِ الكَرِيـم وَسُلْطـانِه
+        القَديـم مِنَ الشّيْـطانِ الرَّجـيم،[ بِسْـمِ الله، وَالصَّلاةُ]
+        [وَالسَّلامُ عَلى رَسولِ الله]، اللّهُـمَّ افْتَـحْ لي أَبْوابَ رَحْمَتـِك</string>
+    <string name="tc11">I take refuge with Allah, The Supreme and with His Noble Face,
+        and His eternal authority from the accursed devil. In the name of Allah,
+        and prayers and peace be upon the Messenger of Allah. O Allah, open the gates of Your mercy for me.</string>
+    <string name="dc12" translatable="false">عوذُ باللهِ العَظيـم وَبِوَجْهِـهِ الكَرِيـم وَسُلْطـانِه القَديـم مِنَ الشّيْـطانِ الرَّجـيم،[ بِسْـمِ الله، وَالصَّلاةُ] [وَالسَّلامُ عَلى رَسولِ الله]،
+        اللّهُـمَّ افْتَـحْ لي أَبْوابَ رَحْمَتـِك</string>
+    <string name="tc12">I take refuge with Allah, The Supreme and with His Noble Face,
+        and His eternal authority from the accursed devil. In the name of Allah,
+        and prayers and peace be upon the Messenger of Allah. O Allah, open the gates of Your mercy for me.</string>
+    <string name="dc13" translatable="false">بِسمِ الله وَالصّلاةُ وَالسّلامُ عَلى رَسولِ الله، اللّهُـمَّ إِنّـي أَسْأَلُكَ مِـنْ فَضْـلِك،
+        اللّهُـمَّ اعصِمْنـي مِنَ الشَّيْـطانِ الرَّجـيم</string>
+    <string name="tc13">In the name of Allah, and prayers and peace be upon the Messenger of Allah.
+        O Allah, I ask You from Your favour. O Allah, guard me from the accursed devil.</string>
+    <string name="dc14" translatable="false">اللّهُـمَّ رَبَّ هَذِهِ الدّعْـوَةِ التّـامَّة وَالصّلاةِ القَـائِمَة
+        آتِ محَـمَّداً الوَسيـلةَ وَالْفَضـيلَة وَابْعَـثْه
+        مَقـامـاً مَحـموداً الَّذي وَعَـدْتَه إِنَّـكَ
+        لا تُـخْلِفُ الميـعاد</string>
+    <string name="tc14">O Allah, Owner of this perfect call and Owner of this prayer to be performed,
+        bestow upon Muhammad al-waseelah and al-fadeelah and send him upon a praised platform which
+        You have promised him. Verily, You never fail in Your promise.’ al-waseelah: A station in
+        paradise. al-fadeelah: A rank above the rest of creation. praised platform: One in which all
+        of creation will praise him on, in order to bring about the account quickly and be relieved
+        from the lengthy standing or the role of intercession.</string>
+    <string name="dc15" translatable="false">اللّهُـمَّ باعِـدْ بَيـني وَبَيْنَ خَطـايايَ كَما باعَدْتَ بَيْنَ
+        المَشْرِقِ وَالمَغْرِبْ ، اللّهُـمَّ نَقِّنـي مِنْ خَطايايَ كَمـا يُـنَقَّى الثَّـوْبُ الأَبْيَضُ
+        مِنَ الدَّنَسْ ، اللّهُـمَّ اغْسِلْنـي مِنْ خَطايـايَ بِالثَّلـجِ وَالمـاءِ وَالْبَرَد</string>
+    <string name="tc15">How perfect You are O Allah, and I praise You. Blessed be Your name,
+        and lofty is Your position and none has the right to be worshipped except You.</string>
+    <string name="dc16" translatable="false">سُبْـحانَ رَبِّـيَ الْعَظـيم . (ثلاثاً)</string>
+    <string name="tc16">How perfect my Lord is, The Supreme. (three times)</string>
+    <string name="dc17" translatable="false">سَمِـعَ اللهُ لِمَـنْ حَمِـدَه</string>
+    <string name="tc17">May Allah answer he who praises Him.’ This supplication is to be made while rising.</string>
+    <string name="dc18" translatable="false">سُبْـحانَ رَبِّـيَ الأَعْلـى . (ثلاثاً )</string>
+    <string name="tc18">How perfect my Lord is, The Most High. (three times)</string>
+    <string name="dc19" translatable="false">رَبِّ اغْفِـرْ لي ، رَبِّ اغْفِـرْ لي</string>
+    <string name="tc19">My Lord forgive me, My Lord forgive me.</string>
+    <string name="dc20" translatable="false">سَجَدَ وَجْهِيَ لِلَّذِي خَلَقَهُ،
+        وَشَقَّ سَمْعَهُ وَبَصَرَهُ، بِحَوْلِهِ وَقُوَّتِهِ، فَتَبَارَكَ اللهُ أَحسَنُ الْخَالِقِي</string>
+    <string name="tc20">My face fell prostrate before He who created it and brought forth its faculties of
+        hearing and seeing by His might and power. So Blessed is Allah, the best of creators.</string>
+    <string name="dc21" translatable="false">التَّحِيّـاتُ للهِ وَالصَّلَـواتُ والطَّيِّـبات ، السَّلامُ عَلَيـكَ أَيُّهـا النَّبِـيُّ
+        وَرَحْمَـةُ اللهِ وَبَرَكـاتُه ، السَّلامُ عَلَيْـنا وَعَلـى عِبـادِ كَ الصَّـالِحـين
+        . أَشْـهَدُ أَنْ لا إِلـهَ إِلاّ الله ، وَأَشْـهَدُ أَنَّ مُحَمّـداً عَبْـدُهُ وَرَسـولُه</string>
+    <string name="tc21">At-tahiyyat is for Allah. All acts of worship and good deeds are for Him. Peace
+        and the mercy and blessings of Allah be upon you O Prophet. Peace be upon us and all of Allah\'s
+        righteous servants. I bear witness that none has the right to be worshipped except Allah and I
+        bear witness that Muhammad is His slave and Messenger.’ At-tahiyyat: all words which indicate
+        the glorification of Allah. His eternal existence, His perfection and His sovereignty.</string>
+    <string name="dc22" translatable="false">اللّهُـمَّ صَلِّ عَلـى مُحمَّـد،
+        وَعَلـى آلِ مُحمَّد، كَمـا صَلَّيـتَ عَلـىإبْراهـيمَ وَعَلـى آلِ إبْراهـيم،
+        إِنَّكَ حَمـيدٌ مَجـيد ، اللّهُـمَّ بارِكْ عَلـى مُحمَّـد، وَعَلـى آلِ مُحمَّـد،
+        كَمـا بارِكْتَ عَلـىإبْراهـيمَ وَعَلـى آلِ إبْراهيم، إِنَّكَ حَمـيدٌ مَجـيد
+</string>
+    <string name="tc22">O Allah, send prayers upon Muhammad and the followers of Muhammad,
+        just as You sent prayers upon Ibraheem and upon the followers of Ibraheem. Verily,
+        You are full of praise and majesty. O Allah, send blessings upon Mohammad and upon
+        the family of Muhammad, just as You sent blessings upon Ibraheem and upon the family
+        of Ibraheem. Verily, You are full of praise and majesty.’ send prayers: praise and exalt
+        him in the highest and superior of gatherings: that of the closest angels to Allah. (al)
+        has been translated in it’s broadest sense: some scholars are of the view that the meaning
+        here is more specific and that it means: his (saw) followers from among his family.
+</string>
+    <string name="dc23" translatable="false">اللّهُـمَّ إِنِّـي أَعـوذُ بِكَ مِـنْ عَذابِ القَـبْر، وَمِـنْ عَذابِ جَهَـنَّم،
+        وَمِـنْ فِتْـنَةِ المَحْـيا وَالمَمـات، وَمِـنْ شَـرِّ فِتْـنَةِ المَسيحِ الدَّجّال</string>
+    <string name="tc23">O Allah, I take refuge in You from the punishment of the grave, from the torment of
+        the Fire, from the trials and tribulations of life and death and from the evil affliction
+        of Al-Maseeh Ad-Dajjal.</string>
+    <string name="dc24" translatable="false">أَسْـتَغْفِرُ الله . (ثَلاثاً) اللّهُـمَّ أَنْـتَ السَّلامُ
+        ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام</string>
+    <string name="tc24">I ask Allah for forgiveness. (three times) O Allah, You are As-Salam and from
+        You is all peace, blessed are You, O Possessor of majesty and honour. AS-Salam: The One Who is
+        free from all defects and deficiencies.</string>
+    <string name="dc25" translatable="false">اللّهُـمَّ إِنِّـي أَسْتَخيـرُكَ بِعِاْـمِك،
+        وَأسْتَقْـدِرُكَ بِقُـدْرَتِـك، وَأَسْـألُـكَ مِنْ فَضْـلِكَ العَظـيم، فَإِنَّـكَ
+        تَقْـدِرُ وَلا أَقْـدِر، وَتَـعْلَـمُ وَلا أَعْلَـم، وَأَنْـتَ عَلاّمُ الغُـيوب،
+        اللّهُـمَّ إِنْ كُنْـتَ تَعْـلَمُ أَنَّ هـذا الأمْـرَ- وَيُسَـمِّي حاجَتَـه
+        - خَـيْرٌ لي في دينـي وَمَعـاشي وَعاقِـبَةِ أَمْـري، فَاقْـدُرْهُ
+        لي وَيَسِّـرْهُ لي ثـمَّ بارِكْ لي فيـه، وَإِنْ كُنْـتَ تَعْـلَمُ أَنَّ هـذا
+        الأمْـرَ شَـرٌ لي في دينـي وَمَعـاشي وَعاقِـبَةِ أَمْـري، فَاصْرِفْـهُ
+        وَاصْرِفْني عَنْـهُ وَاقْـدُرْ لي الخَـيْرَ حَيْـثُ كانَ ثُـمَّ أَرْضِـني بِـه</string>
+    <string name="tc25">On the authority of Jabir Ibn Abdullah (ra) he said: The Prophet would
+        instruct us to pray for guidance in all of our concerns, just as he would teach us a chapter
+        from the Quran. He (saw) would say If any of you intends to undertake a matter then let him
+        pray two supererogatory units (two rakah nafilah) of prayer and after which he should supplicate</string>
+    <string name="dc26" translatable="false">أَمْسَيْـنا وَأَمْسـى المـلكُ لله وَالحَمدُ لله ،
+        لا إلهَ إلاّ اللّهُ وَحدَهُ لا شَريكَ لهُ، لهُ المُـلكُ ولهُ الحَمْـد، وهُوَ
+        على كلّ شَيءٍ قدير ، رَبِّ أسْـأَلُـكَ خَـيرَ ما في هـذهِ اللَّـيْلَةِ
+        وَخَـيرَ ما بَعْـدَهـا ، وَأَعـوذُ بِكَ مِنْ شَـرِّ هـذهِ اللَّـيْلةِ وَشَر
+        ِّ ما بَعْـدَهـا ، رَبِّ أَعـوذُبِكَ مِنَ الْكَسَـلِ وَسـوءِ الْكِـبَر ،
+        رَبِّ أَعـوذُبِكَ مِنْ عَـذابٍ في النّـارِ وَعَـذابٍ في القَـبْر .</string>
+    <string name="tc26">In morning</string>
+    <string name="dc27" translatable="false">{اللّهُ لاَ إِلَـهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَّهُ مَا فِي السَّمَاوَاتِ
+        وَمَا فِي الأَرْضِ مَن ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أ
+        َيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلاَّ بِمَا شَاء وَسِعَ
+        كُرْسِيُّهُ السَّمَوَاتِ وَالأَرْضَ وَلاَ يَؤُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ }</string>
+    <string name="tc27">The Prophet (S) also said: ‘When you are about to sleep recite ayat-al-kursee
+        (The verse of the foot-stool, chapter 2:255) till the end of the verse for there will
+        remain over you a protection from Allah and no devil will draw near to you until morning.’</string>
+    <string name="dc28" translatable="false">لا إِلَهَ~َ إِلاَّ اللَّهُ الوَاحِدُ القَهَّارُ،
+        رَبُّ السَّمَوَاتِ وَالأَرْضِ وَمَا بَيْنَهُمَا، العَزِيْزُ الغَفَّارُ</string>
+    <string name="tc28">Aisha narrated that the Messenger of Allah (saw) used to say at night if he
+        turned during sleep:None has the right to be worshipped except Allah, The One, AL-Qahhar.
+        Lord of the heavens and the Earth and all between them, The Exalted in Might,
+        The Oft-Forgiving.AL-Qahhar:The One Who has subdued all of creation and
+        Whom all of creation are subservient to. All movements occur by His will.</string>
+    <string name="dc29" translatable="false">أَعُوْذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ غَضَبِه
+        ِِ وَعِقَابِهِ، وَشَرِّ عِبَادِه ِِ وَمِنْ هَمَزَاتِ الشَّيْاطِيْنِ وَأَنْ يَحْضُرُوْنَ.</string>
+    <string name="tc29">‘I take refuge in the perfect words of Allah from His anger and punishment,
+        and from the evil of His servants, and from the madness and appearance of devils.’</string>
+    <string name="dc30" translatable="false">ينفث عن يساره (ثلاثا) يستعيذ بالله من
+        الشيطان ومن شر ما رأى (ثلاث مرات) لا يحدث بها أحدا.
+        يتحول عن جنبه الذي كان عليه. يَنْفُثُ عَنْ يَسَارِهِ (ثَلاثاً)
+        يَسْتَعِيْذُ بِاللهِ مِنَ الشَّيْطَانِ وَمِنْ شَرِّ مَا رَأَى (ثَلاثَ مَرَّاتٍ)
+        لا يُحَدِّثُ بِهَا أَحَداً. يَتَحَوَّلُ عَنْ جَنْبِهِ الَّذِي كَانَ عَلَيْهِ.</string>
+    <string name="tc30">‘The righteous dream is from Allah and the bad dream is from the devil,
+        so if anyone sees something which pleases him then he should only relate it to one whom he loves…\'</string>
+    <string name="dc31" translatable="false">اللَّهُمَّ إِنِّي أَعُوْذُ بِرِضَاكَ مِنْ سَخَطِكَ، وَبِمُعَافَاتِكَ مِنْ عُقُوْبَتِكَ، وَأَعُوْذُ بِكَ مِنْكَ،
+        لا أُحْصِي ثَنَاءً عَلَيْكَ، أَنْتَ كَمَا أَثْنَيْتَ عَلَى نَفْسِكَ</string>
+    <string name="tc31">‘O Allah, I take refuge within Your pleasure from Your displeasure and
+        within Your pardon from Your punishment, and I take refuge in You from You.
+        I cannot enumerate Your praise. You are as You have praised Yourself.’</string>
+    <string name="dc32" translatable="false">سَبِّحِ اِسْمَ رَبِّكَ الأَعْلَى (قُلْ يَا أَيُّهَا الكَافِرُوْنَ…) (قُلْ هُوَ الله
+        ُ أَحَدٌ…) سبْحَانَ المَلِكِ القُدُّوْسِ (ثَلاثَ مَرَّات) وَالثَّالِثَةُ
+        يَجْهَرُ بِهَا وَيَمُدُّ بِهَا صَوْتَهُ، [ رَبِّ المَلائِكَةِ وَالرُّوْحِ]</string>
+    <string name="tc32">The Messenger of Allah (S) would recite (the following chapters)
+        during the witr prayer suras:[Al-Ala], [Al-kafiroon], [Al-ikhlas]after giving salam
+        he would supplicate three times: ‘How perfect The King, The Holy One is.’ (three times)
+        ..on the third time he would raise his voice, elongate it and add: ‘Lord of the angles
+        and the Rooh (i.e. Jibraeel).</string>
+    <string name="dc33" translatable="false">اللَّهُمَّ إِنِّي أَعُوْذُ بِكَ مِنَ الهَمِّ وَالحُزْنِ،
+        وَالعَجْزِ وَالكَسَلِ وَالبُخْلِ وَالجُبْنِ، وَضَلْعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ</string>
+    <string name="tc33">‘O Allah, I take refuge in You from anxiety and sorrow, weakness and
+        laziness, miserliness and cowardice, the burden of debts and from being over powered by men.’</string>
+    <string name="dc34" translatable="false">لا إِلَهََ إِلاَّ اللهُ العَظِيْمُ الحَلِيْمُ، لا إِلَهََ إِلاَّ اللهُ رَبُّ العَرْشِ العَظِيْمِ، لا إِلَهَ~َ
+        إِلاَّ اللهُ رَبُّ السَّمَوَاتِ وَرَبُّ الأَرْضِ وَرَبُّ العَرْشِ الكَرِيْمِ</string>
+    <string name="tc34">‘None has the right to be worshipped except Allah Forbearing. None has the
+        right to be worshipped except Allah, Lord of the magnificent throne. None has the right to
+        be worshipped except Allah, Lord of the heavens, Lord of the Earth and Lord of the noble throne.’</string>
+    <string name="dc35" translatable="false">اللَّهُمَّ إِنَّا نَجْعَلُكَ فِي نُحَورِهِمْ، وَنَعُوْذُ بِكَ مِنْ شُرُوْرِهِمْ</string>
+    <string name="tc35">‘O Allah, we place You before them and we take refuge in You from their evil.’</string>
+    <string name="dc36" translatable="false">يَقُوْلُ: آمَنْتُ بِاللهِ وَرُسُلِهِ</string>
+    <string name="tc36">One should say: ‘I have believed in Allah and His Messenger.’</string>
+    <string name="dc37" translatable="false">اللَّهمَّ اكْفِنِي بِحَلالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ</string>
+    <string name="tc37">‘O Allah, make what is lawful enough for me, as opposed to what is unlawful,
+        and spare me by Your grace, of need of others.’</string>
+    <string name="dc38" translatable="false">أعوذ بالله من الشيطان الرجيم واتفل على يسارك ( ثلاثا )</string>
+    <string name="tc38">Uthman Ibn Al-Aas narrated: I said ‘O Messenger of Allah (saw), verily the
+        devil comes between me and my prayer and recitation making me confused’ The Messenger of
+        Allah (saw) replied ‘That is a devil called Khanzab, so if you sense his presence then seek
+        refuge in Allah from him and spit (A form of spitting comprising mainly of air with little
+        spittle) on your left side three times.’</string>
+    <string name="dc39" translatable="false">اللَّهمَّ لا سَهْلَ إِلاَّ مَا جَعَلتَه ُُ سَهْلا، ً وَأَنْتَ تَجْعَلُ الحَزَنَ إِذَا شِئْتَ سَهْلا</string>
+    <string name="tc39">‘O Allah, there is no ease except in that which You have made easy,
+        and You make the difficulty, if You wish, easy.’</string>
+    <string name="dc40" translatable="false">ما من عبد يذنب ذنبا فيحسن الطهور،
+        ثم يقوم فيصلي ركعتين، ثم يستغفر الله إلا غفر الله له</string>
+    <string name="tc40">‘Any servant who commits a sin and as a result, performs ablution, prays
+        two units of prayer (i.e. two rakahs) and then seeks Allah’s forgiveness, Allah would
+        forgive him.’</string>
+    <string name="dc41" translatable="false">الإستعاذة بالله منه</string>
+    <string name="tc41">Seeking refuge from him.</string>
+    <string name="dc42" translatable="false">حَسْبِيَ اللَّهُ وَنِعْمَ الوَكِيْلُ</string>
+    <string name="tc42">‘Allah is sufficient for me, and how fine a trustee (He is).’</string>
+    <string name="dc43" translatable="false">كان رسول الله صلى الله عليه وسلم يعوذ الحسن والحسين:أُعِيْذُكُمَا
+        بِكَلِمَاتِ اللَّهِ التَّامَّةِ، مِنْ كُلِّ شَيْطَان ٍ وَهَامَّة، ٍ وَمِنْ كُلِّ عَيْن ٍ لامَّة</string>
+    <string name="tc43">Ibn Abbas related that the Messenger of Allah (saw) used to commend Al-Hasan
+        and Al-Husayn to Allah’s protection, saying:‘I commend you two to the protection of Allah’s
+        perfect words from every devil, vermin, and every evil eye.’</string>
+    <string name="dc44" translatable="false">لا بَأْسَ طَهُوْر ٌ إِنْ شَاءَ ال</string>
+    <string name="tc44">When the Prophet (saw) would enter upon a sick person, he would say:
+        ‘Never mind, may it (the sickness) be a purification, if Allah wills.’</string>
+    <string name="dc45" translatable="false">قَالَ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: \" إِذَا عَادَ الرَّجُلُ أَخَاهُ المُسْلِمَ مَشَى
+        فِي خِرَافَةِ الجَنَّةِ حَتَّى يَجْلِسَ فَإِذَا جَلَسَ غَمَرَتْهُ الرَّحْمَةُ،
+        فَإِنْ كَانَ غُدْوَةً صَلَّى عَلَيْهِ سَبْعُوْنَ أَلْفَ مَلَكٍ حَتَّى يُمْسِيَ،
+        وَإِنْ كَانَ مَسَاءً صَلَّى عَلَيْهِ سَبْعُوْنَ أَلْفَ مَلَكٍ حَتَّى يُصْبِحَ</string>
+    <string name="tc45">‘Ali Ibn Abi Talib (ra) related that he heard the Messenger of Allah
+        (saw) say:‘If a man calls on his sick Muslim brother, it is as if he walks reaping the
+        fruits of Paradise until he sits, and when he sits he is showered in mercy, and if this
+        was in the morning, seventy thousand angles send prayers upon him until the evening, and
+        if this was in the evening, seventy thousand angles send prayers upon him until the morning.’</string>
+    <string name="dc46" translatable="false">اللَّهمَّ اغْفِرْ لِي وَارْحَمْنِي وَأَلْحِقْنِي بِالرَّفِيْقِ الأَعْلَى</string>
+    <string name="tc46">‘O Allah, forgive me, have mercy upon me and unite me with the higher
+        companions.Refer to the Quran, chapter 4, verse: 69</string>
+    <string name="dc47" translatable="false">لا إِلَهََ إِلاَّ ال</string>
+    <string name="tc47">Those around the sick should instruct and encourage him to say the shahadah.
+        ‘He whose last words are:‘None has the right to be worshipped except Allah. will enter Paradise.’</string>
+    <string name="dc48" translatable="false">إِنَّا للهِ وَإِنَّا إِلَيْهِ رَاجِعُوْنَ،
+        اللَّهمَّ أْجُرْنِي فِي مُصِيْبَتِي، وَاخْلُفْ لِي خَيْرا ً مِنْهَا</string>
+    <string name="tc48">‘To Allah we belong and unto Him is our return.O Allah,
+        recompense me for my affliction and replace it for me with something better.’</string>
+    <string name="dc49" translatable="false">اللَّهمَّ اغْفِرْ لِ-فُلان ٍ بِاسْمِهِ- وَارْفَعْ دَرَجَتَه ُُ فِي المَهْدِيِّيْنَ،
+        وَاخْلُفْهُ فِي عَقِبِه ِِ فِي الغَابِرِيْنَ،
+        وَاغْفِرْ لَنَا وَلَه ُُ يَا رَبَّ العَالَمِيْنَ،
+        وَافْسَحْ لَه ُُ فِي قَبْرِه ِِ وَنَوِّرْ لَه ُُ فِيْهِ</string>
+    <string name="tc49">‘O Allah, forgive (mention the name of the deceased here)
+        and raise his rank among the rightly guided, and be a successor to whom he
+        has left behind, and forgive us and him O Lord of the worlds. Make spacious
+        his grave and illuminate it for him.’</string>
+    <string name="dc50" translatable="false">اللَّهمَّ اغْفِرْ لَه ُُ وَارْحَمْهُ، وَعَافِه ِِ وَاعْفُ عَنْهُ، وَأَكْرِمْ نُزُلَهُ،
+        وَوَسِّعْ مُدْخَلَهُ، وَاغْسِلْهُ بِالمَاءِ وَالثَّلْجِ وَالبَرَدِ،
+        وَنَقِّه ِِ مِنَ الخَطَايَا كَمَا نَقَّيْتَ الثَّوْبَ الأَبْيَضَ مِنَ
+        الدَّنَسِ، وَأَبْدِلْهُ دَاراً خَيْرا ً مِنْ دَارِهِ، وَأَهْلاً خَيْرا
+        ً مِنْ أَهْلِهِ، وَزَوْجَاً خَيْرا ً مِنْ زَوْجِهِ، وَأَدْخِلْهُ الجَنَّةَ،
+        وَأَعِذْهُ مِنْ عَذَابِ القَبْرِ وَعَذَابِ النَّار</string>
+    <string name="tc50">‘O Allah, forgive and have mercy upon him, excuse him and pardon him,
+        and make honourable his reception. Expand his entry, and cleanse him with water, snow,
+        and ice, and purify him of sin as a white robe is purified of filth. Exchange his home
+        for a better home, and his family for a better family, and his spouse for a better spouse.
+        Admit him into the Garden, protect him from the punishment of the grave and the torment of the Fire.’</string>
+    <string name="ablution_explain">This is based on the following: Says Allah, If you are sexually impure,
+        cleanse yourselves, that is, perform ghusl, and They ask you concerning menstruation.
+        Say: \'It is an illness, so leave women alone at such times and go not in unto them
+        until they are cleansed, that is, until they perform ghusl. The proof that cleansing
+        means ghusl is in the verse, O you who believe, draw not unto the prayer when you are
+        drunk until you know what you utter, nor when you are polluted, save when journeying
+        upon the road, until you have bathed (taghtasilu). This shows that ghusl, the washing
+        of all bodily parts, is meant.</string>
+    <string name="ghusl1">According to the practice of the Prophet, upon whom be peace, the
+        correct manner of performing ghusl is:</string>
+    <string name="gusl2">01. Wash both hands three times.</string>
+    <string name="ghus3">02. Wash the private parts.</string>
+    <string name="ghus4">03. Make a complete ablution (like the one made for prayer—the
+        Prophet used to delay washing his feet until the end of his ghusl if he was using a
+        tub, and so on),</string>
+    <string name="ghus05">04. Rub water through one\'s hair three times, letting the water
+        reach down to the roots of the hair,</string>
+    <string name="ghus7">05. Pour water over the entire body, beginning with the right side,
+        then the left, washing under the armpits, inside the ears, inside the navel, inside
+        the toes and whatever part of the body can be easily rubbed.</string>
+    <string name="ghus8">This account is based on the following report from
+        \'Aishah: When the Prophet, upon whom be peace, took his bath after
+        sexual intercourse, he would begin by washing his hands. Then he would pour
+        water from his right hand to his left and wash his sexual organs, make the ablution
+        for prayer, take some water and put his fingers to the roots of his hair to the extent
+        that he sees that the skin is wet, then pour water over his head three times and then
+        over the rest of his body.</string>
+    <string name="ghus9">In one narration it states, He used to rub his head with his hands
+        until he was certain the water reached his skin, and then he poured water over it three times.
+        It is also related that she said, When the Prophet would perform ghusl after having had sexual
+        intercourse, he would call for some water, which he would pour on his right hand to wash the
+        right side of his head and then the left.</string>
+    <string name="ghus10">He would then take water with both hands and pour it over his head.
+        Said Maimunah, I put water out for the Messenger of Allah to perform ghusl.
+        He washed his hands two or three times, and then he poured water from his
+        right hand to his left and washed his private parts, wiped his hands on the
+        earth, rinsed his mouth and nose, washed his face and hands, washed his head
+        three times, poured water over his body, and finally moved from his place and washed
+        his feet. I brought him a towel, but he did not take it, for he shook the water off
+        with his hands.</string>
+    <string name="wudu">Since Islam teaches us that intention forms the basis of any action,
+        it is necessary that, before you perform Wudu, you make the niyyat or intention for it.
+        This will not be a verbal act - you only have to mentally prepare yourself for an act that
+        will cleanse and purify you.</string>
+    <string name="wudu1">Recite bismi-llāhi ar-raḥmāni ar-raḥīmi (In the name of Allah, the most Gracious,
+        the most Merciful).</string>
+    <string name="wudu2">Completely wash your right hand three times with clean water,
+        then move on to the left and repeat. When washing, remember not to miss any part of the hands -
+        wash between the fingers and thumb, too.</string>
+    <string name="wudu3">Take water in your right palm and rinse your mouth with it, thrice.
+        Do not swallow the water on purpose, but spit it out every time.</string>
+    <string name="wudu4">Using your right hand, carefully and gently put water into your nostrils,
+        before exhaling it. Perform this step three times.</string>
+    <string name="wudu5">Thoroughly wash your face, beginning from the hairline on your forehead
+        and from one ear to the other. This step, too, must be performed three times.</string>
+    <string name="wudu6">Begin with your right hand. Wet it with water, and wash from your wrist
+        up to your elbow. Repeat thrice; then do the same to your left arm.</string>
+    <string name="wudu7">Usually, Masah refers to the religious act of cleaning one\'s head, in a
+        specific way, with a small amount of water. For performing Masah, wet your hands and place
+        your palms, flat, on the top of your head (where the hairline begins). Wipe them to the back
+        of your neck, and then back again to the front. Now wet the back of both ears
+        by placing your thumbs behind them. Use your index and middle fingers to wash
+        the front and back of your ears. Masah is done only once.</string>
+    <string name="wudu8">Start with your right foot. Wash it thrice from the toes,
+        up to the ankles. Make sure you wash between your toes, too. Do the same to your left foot.
+        Remember: Once Wudu is performed, it does not need to (but can) be performed
+        again until it is invalidated.</string>
+    <string name="bannerid">ca-app-pub-2868811788162661/8748513167</string>
+
+
+    <string-array name="language_array">
+        <item>Select Language</item>
+        <item>Hindi</item>
+        <item>Sindhi</item>
+        <item>Urdu</item>
+        <item>English</item>
+    </string-array>
+</resources>
