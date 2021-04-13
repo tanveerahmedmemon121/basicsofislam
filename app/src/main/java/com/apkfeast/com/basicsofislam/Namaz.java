@@ -67,12 +67,16 @@ public class Namaz extends AppCompatActivity {
         quood.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent i = new Intent(Namaz.this, Quood.class);
+                startActivity(i);
 
             }
         });
         salam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent i = new Intent(Namaz.this, Salam.class);
+                startActivity(i);
 
             }
         });

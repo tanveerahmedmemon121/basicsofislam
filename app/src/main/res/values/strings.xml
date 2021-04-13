@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Basics Of Islam</string>
-    <string name="Inters">ca-app-pub-2868811788162661/6313921516</string>
-    <string name="APP_ID">ca-app-pub-2868811788162661~6505493207</string>
+    <string name="Inters" translatable="false">ca-app-pub-2868811788162661/6313921516</string>
+    <string name="APP_ID" translatable="false">ca-app-pub-2868811788162661~6505493207</string>
     <string name="alert" translatable="false">Basic language of this app is english and all
         other translation are done with automated tools which may have some contextual mistakes.
         Please refer to english if there are some confusions</string>
@@ -368,7 +368,14 @@
         up to the ankles. Make sure you wash between your toes, too. Do the same to your left foot.
         Remember: Once Wudu is performed, it does not need to (but can) be performed
         again until it is invalidated.</string>
-    <string name="bannerid">ca-app-pub-2868811788162661/8748513167</string>
+    <string name="bannerid" translatable="false" >ca-app-pub-2868811788162661/8748513167</string>
+    <string name="quooadtext" translatable="false" >If the required number of Rakats is two the salat would proceed to next recitaion.</string>
+    <string name="quood" translatable="false">Quood</string>
+    <string name="play_tashhad" translatable="false">Play Tashhad</string>
+    <string name="durood_ibraheem" translatable="false">Durood Ibraheem</string>
+    <string name="play_dua" translatable="false">Play Dua</string>
+    <string name="salam" translatable="false">Salam</string>
+    <string name="salam_play" translatable="false">salam play</string>
 
 
     <string-array name="language_array">
