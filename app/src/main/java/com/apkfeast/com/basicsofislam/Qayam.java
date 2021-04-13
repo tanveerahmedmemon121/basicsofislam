@@ -1,14 +1,18 @@
 package com.apkfeast.com.basicsofislam;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Qayam extends AppCompatActivity {
 
 
-    ImageButton plasana,playbism,playfatiha,playqulhuwallah;
+    ImageButton plasana, playbism, playfatiha, playqulhuwallah;
+    MediaPlayer mp;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,5 +22,59 @@ public class Qayam extends AppCompatActivity {
         playbism = findViewById(R.id.playbism);
         playfatiha = findViewById(R.id.playfatiha);
         playqulhuwallah = findViewById(R.id.playqulhuwallah);
+        mp = new MediaPlayer();
+
+        plasana.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!mp.isPlaying()) {
+                    mp = MediaPlayer.create(Qayam.this, R.raw.sana);
+                } else {
+                    mp.stop();
+                    mp.reset();
+                    mp.start();
+                }
+            }
+        });
+
+        playbism.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!mp.isPlaying()) {
+                    mp = MediaPlayer.create(Qayam.this, R.raw.bism);
+                } else {
+                    mp.stop();
+                    mp.reset();
+                    mp.start();
+                }
+
+
+            }
+        });
+        playfatiha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!mp.isPlaying()) {
+                    mp = MediaPlayer.create(Qayam.this, R.raw.fatiha);
+                } else {
+                    mp.stop();
+                    mp.reset();
+                    mp.start();
+                }
+            }
+        });
+
+        playqulhuwallah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!mp.isPlaying()) {
+                    mp = MediaPlayer.create(Qayam.this, R.raw.ikhlas);
+                } else {
+                    mp.stop();
+                    mp.reset();
+                    mp.start();
+                }
+            }
+        });
     }
 }
