@@ -45,19 +45,22 @@ public class Namaz extends AppCompatActivity {
         ruku.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i = new Intent(Namaz.this, Ruku.class);
+                startActivity(i);
             }
         });
         qayama.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i = new Intent(Namaz.this, Qayama.class);
+                startActivity(i);
             }
         });
         sajda.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i = new Intent(Namaz.this, Sajda.class);
+                startActivity(i);
             }
         });
 
