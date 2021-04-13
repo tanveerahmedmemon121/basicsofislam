@@ -29,6 +29,7 @@ public class Qayam extends AppCompatActivity {
             public void onClick(View v) {
                 if (!mp.isPlaying()) {
                     mp = MediaPlayer.create(Qayam.this, R.raw.sana);
+                    mp.start();
                 } else {
                     mp.stop();
                     mp.reset();
@@ -42,6 +43,7 @@ public class Qayam extends AppCompatActivity {
             public void onClick(View v) {
                 if (!mp.isPlaying()) {
                     mp = MediaPlayer.create(Qayam.this, R.raw.bism);
+                    mp.start();
                 } else {
                     mp.stop();
                     mp.reset();
@@ -56,6 +58,7 @@ public class Qayam extends AppCompatActivity {
             public void onClick(View v) {
                 if (!mp.isPlaying()) {
                     mp = MediaPlayer.create(Qayam.this, R.raw.fatiha);
+                    mp.start();
                 } else {
                     mp.stop();
                     mp.reset();
@@ -69,6 +72,7 @@ public class Qayam extends AppCompatActivity {
             public void onClick(View v) {
                 if (!mp.isPlaying()) {
                     mp = MediaPlayer.create(Qayam.this, R.raw.ikhlas);
+                    mp.start();
                 } else {
                     mp.stop();
                     mp.reset();
