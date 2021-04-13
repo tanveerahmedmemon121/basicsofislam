@@ -14,13 +14,13 @@
 
 
         <ImageView
-            android:id="@+id/ia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:adjustViewBounds="true"
             android:padding="10dp"
-            android:src="@drawable/alqayyam" />
+            android:src="@drawable/alqayyam"
+            android:contentDescription="@string/qayam" />
 
         <ImageButton
             android:id="@+id/plasana"
@@ -28,11 +28,11 @@
             android:layout_height="80dp"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10dp"
-            android:background="@drawable/playbuttn" />
+            android:background="@drawable/playbuttn"
+            android:contentDescription="@string/play_dua" />
 
 
         <ImageView
-            android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -41,7 +41,8 @@
             android:src="@drawable/alqayyamb"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/qayam" />
 
         <ImageButton
             android:id="@+id/playbism"
@@ -49,7 +50,8 @@
             android:layout_height="80dp"
             android:layout_margin="10dp"
             android:layout_gravity="center_horizontal"
-            android:background="@drawable/playbuttn" />
+            android:background="@drawable/playbuttn"
+            android:contentDescription="@string/play_bismillah" />
 
 
         <ImageView
@@ -59,14 +61,16 @@
             android:adjustViewBounds="true"
             android:padding="10dp"
             android:scaleType="fitXY"
-            android:src="@drawable/alqayyamc" />
+            android:src="@drawable/alqayyamc"
+            android:contentDescription="@string/qayam" />
         <ImageButton
             android:id="@+id/playfatiha"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_margin="10dp"
             android:layout_gravity="center_horizontal"
-            android:background="@drawable/playbuttn" />
+            android:background="@drawable/playbuttn"
+            android:contentDescription="@string/qayam" />
 
         <ImageView
             android:layout_width="match_parent"
@@ -75,7 +79,8 @@
             android:padding="10dp"
             android:layout_margin="10dp"
             android:scaleType="fitXY"
-            android:src="@drawable/alqayyamd" />
+            android:src="@drawable/alqayyamd"
+            android:contentDescription="@string/qayam" />
 
         <ImageButton
             android:id="@+id/playqulhuwallah"
@@ -83,7 +88,8 @@
             android:layout_height="80dp"
             android:layout_margin="10dp"
             android:layout_gravity="center_horizontal"
-            android:background="@drawable/playbuttn" />
+            android:background="@drawable/playbuttn"
+            android:contentDescription="@string/qayam" />
 
     </LinearLayout>
 </ScrollView>

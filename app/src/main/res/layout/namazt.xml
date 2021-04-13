@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:background="@drawable/btn"
-        android:text="Takbeer"
+        android:text="@string/takbeer"
         android:textColor="@color/textcolor"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:background="@drawable/btn"
-        android:text="Qayam"
+        android:text="@string/qayam"
         android:textColor="@color/textcolor"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -107,7 +107,6 @@
         app:layout_constraintTop_toBottomOf="@+id/quood" />
 
     <RelativeLayout
-        android:id="@+id/relativeLayout3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
