@@ -376,6 +376,10 @@
     <string name="play_dua" translatable="false">Play Dua</string>
     <string name="salam" translatable="false">Salam</string>
     <string name="salam_play" translatable="false">salam play</string>
+    <string name="takbeer">Takbeer</string>
+    <string name="qayam">Qayam</string>
+    <string name="play_bismillah">Play Bismillah</string>
+    <string name="takbeer">Takbeer</string>
 
 
     <string-array name="language_array">
