@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Takbeer"></activity>
+        <activity android:name=".Qayam"></activity>
+        <activity android:name=".Takbeer" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"

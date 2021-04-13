@@ -38,6 +38,8 @@ public class Namaz extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                Intent i = new Intent(Namaz.this, Qayam.class);
+                startActivity(i);
             }
         });
         ruku.setOnClickListener(new View.OnClickListener() {
