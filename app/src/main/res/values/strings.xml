@@ -19,7 +19,7 @@
     <string name="goingtomosque">When Going To Mosque</string>
     <string name="enteringmosque">Upon Entering Mosque</string>
     <string name="leavemosque">Leaving Mosque</string>
-    <string name="azan">Related To Azan</string>
+    <string name="azan">After Azan</string>
     <string name="aftertakbeer">Start of Prayer (After Takbeer)</string>
     <string name="rukooa">During Rukooaa (Bowing)</string>
     <string name="risingrukoo">Upon Rising from Rukooa</string>
@@ -67,9 +67,10 @@
         alone, without partner, to Him belongs all sovereignty and praise.
         He gives life and causes death, and He is living and does not die.
         In His hand is all good and He is over all things, omnipotent.</string>
-    <string name="dc1" translatable="false">اَلْحَمْدُ لِلّٰہِ الَّذِیْ کَسَانِیْ ھٰذَا وَرَزَقَنِیْہِ مِنْ غَیْرِ حَوْلٍ مِّنِّیْ وَلَاقُوَّةٍ۔</string>
-    <string name="tc1">All Praise is for Allah who has clothed me with this garment and provided it for me,
-        with no power nor might from myself.</string>
+    <string name="dc1" translatable="false">اللَّهُمَّ لَكَ الحَمدُ أَنْتَ كَسَوْتَنِيهِ، أَسْأَلُكَ مِنْ خَيْرِهِ وَخَيْرِ مَا صُنِعَ لَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّهِ وَشِّرِ مَا صُنِعَ لَهُ</string>
+    <string name="tc1">O Allah, for You is all praise, You have clothed me with it
+        (i.e. the garment), I ask You for the good of it and the good for which it
+        was made, and I seek refuge with You from the evil of it and the evil for which it was made. </string>
     <string name="dc3" translatable="false">تُبْلِي وَيُخْلِفُ اللَّهُ</string>
     <string name="tc3">May Allah prolong your life so that this clothing become old
         and may Allah give you other clothing after this.</string>
@@ -81,30 +82,27 @@
     <string name="tc6">I ask You (Allah) for forgiveness.</string>
     <string name="tc7" translatable="false">بِسْمِ الله</string>
     <string name="tc7ac">In the name of Allah</string>
-    <string name="dc8" translatable="false">هَدُ أَنْ لا إِلَـهَ إِلاّ اللهُ وَحْدَهُ لا شَريـكَ لَـهُ وَأَشْهَدُ أَنَّ مُحَمّـداً عَبْـدُهُ وَرَسـولُـه</string>
-    <string name="tc8">I bear witness that none has the right to be worshipped except Allah,
-        alone without partner, and I bear witness that Muhammad is His slave and Messenger.</string>
+    <string name="dc8" translatable="false">أَشْهَدُ أَنْ لَا إِلَـهَ إِلاَّ اللّهُ وَحْدَهُ لَا شَريـكَ لَـهُ وَأَشْهَدُ أَنَّ مُحَمَّـداً عَبْـدُهُ وَرَسُـولُـهُ.</string>
+    <string name="tc8">I bear witness that none has the right to be worshipped except Allah, alone without partner,
+        and I bear witness that Muhammad is His slave and Messenger.</string>
     <string name="dc9" translatable="false">ِسْمِ اللهِ ، تَوَكَّلْـتُ عَلى اللهِ وَلا حَوْلَ وَلا قُـوَّةَ إِلاّ بِالله</string>
     <string name="tc9">In the name of Allah, I place my trust in Allah, and there is no might
         nor power except with Allah.</string>
     <string name="dc10" translatable="false">بِسْـمِ اللهِ وَلَجْنـا، وَبِسْـمِ اللهِ خَـرَجْنـا، وَعَلـى رَبِّنـا تَوَكّلْـنا</string>
     <string name="tc10">In the name of Allah we enter and in the name of Allah we leave, and upon our Lord
         we place our trust.</string>
-    <string name="dc11" translatable="false">عوذُ باللهِ العَظيـم وَبِوَجْهِـهِ الكَرِيـم وَسُلْطـانِه
-        القَديـم مِنَ الشّيْـطانِ الرَّجـيم،[ بِسْـمِ الله، وَالصَّلاةُ]
-        [وَالسَّلامُ عَلى رَسولِ الله]، اللّهُـمَّ افْتَـحْ لي أَبْوابَ رَحْمَتـِك</string>
-    <string name="tc11">I take refuge with Allah, The Supreme and with His Noble Face,
-        and His eternal authority from the accursed devil. In the name of Allah,
-        and prayers and peace be upon the Messenger of Allah. O Allah, open the gates of Your mercy for me.</string>
-    <string name="dc12" translatable="false">عوذُ باللهِ العَظيـم وَبِوَجْهِـهِ الكَرِيـم وَسُلْطـانِه القَديـم مِنَ الشّيْـطانِ الرَّجـيم،[ بِسْـمِ الله، وَالصَّلاةُ] [وَالسَّلامُ عَلى رَسولِ الله]،
-        اللّهُـمَّ افْتَـحْ لي أَبْوابَ رَحْمَتـِك</string>
-    <string name="tc12">I take refuge with Allah, The Supreme and with His Noble Face,
-        and His eternal authority from the accursed devil. In the name of Allah,
-        and prayers and peace be upon the Messenger of Allah. O Allah, open the gates of Your mercy for me.</string>
-    <string name="dc13" translatable="false">بِسمِ الله وَالصّلاةُ وَالسّلامُ عَلى رَسولِ الله، اللّهُـمَّ إِنّـي أَسْأَلُكَ مِـنْ فَضْـلِك،
-        اللّهُـمَّ اعصِمْنـي مِنَ الشَّيْـطانِ الرَّجـيم</string>
-    <string name="tc13">In the name of Allah, and prayers and peace be upon the Messenger of Allah.
-        O Allah, I ask You from Your favour. O Allah, guard me from the accursed devil.</string>
+    <string name="dc11" translatable="false">اللّهُـمَّ اجْعَـلْ في قَلْبـي نورا ، وَفي لِسـاني نورا،
+        وَاجْعَـلْ في سَمْعي نورا، وَاجْعَـلْ في بَصَري نورا
+        ، وَاجْعَـلْ مِنْ خَلْفي نورا، وَمِنْ أَمامـي نورا
+        ، وَاجْعَـلْ مِنْ فَوْقـي نورا ، وَمِن تَحْتـي نورا .اللّهُـمَّ أَعْطِنـي نورا.</string>
+    <string name="tc11">O Allah, place within my heart light, and upon my tongue light,
+        and within my ears light, and within my eyes light, and place behind me light
+        and in front of me light and above me light and beneath me light. O Allah,
+        bestow upon me light.</string>
+    <string name="dc12" translatable="false">اَللّٰهُمَّ افْتَحْ لِيْ اَبْوَابَ رَحْمَتِکَ</string>
+    <string name="tc12">Oh Allah! Open the doors for me of your Blessings.</string>
+    <string name="dc13" translatable="false">اَللّٰهُمَّ اِنِّيْ اَسْاَلُکَ مِنْ فَضْلِکَ </string>
+    <string name="tc13">Oh Allah! I ask you of your Favour</string>
     <string name="dc14" translatable="false">اللّهُـمَّ رَبَّ هَذِهِ الدّعْـوَةِ التّـامَّة وَالصّلاةِ القَـائِمَة
         آتِ محَـمَّداً الوَسيـلةَ وَالْفَضـيلَة وَابْعَـثْه
         مَقـامـاً مَحـموداً الَّذي وَعَـدْتَه إِنَّـكَ
@@ -115,11 +113,26 @@
         paradise. al-fadeelah: A rank above the rest of creation. praised platform: One in which all
         of creation will praise him on, in order to bring about the account quickly and be relieved
         from the lengthy standing or the role of intercession.</string>
-    <string name="dc15" translatable="false">اللّهُـمَّ باعِـدْ بَيـني وَبَيْنَ خَطـايايَ كَما باعَدْتَ بَيْنَ
-        المَشْرِقِ وَالمَغْرِبْ ، اللّهُـمَّ نَقِّنـي مِنْ خَطايايَ كَمـا يُـنَقَّى الثَّـوْبُ الأَبْيَضُ
-        مِنَ الدَّنَسْ ، اللّهُـمَّ اغْسِلْنـي مِنْ خَطايـايَ بِالثَّلـجِ وَالمـاءِ وَالْبَرَد</string>
-    <string name="tc15">How perfect You are O Allah, and I praise You. Blessed be Your name,
-        and lofty is Your position and none has the right to be worshipped except You.</string>
+    <string name="dc15" translatable="false">وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّموَاتِ وَالْأَرْضَ حَنِيفاً وَمَا أَنَا مِنَ الْمُشْرِكِينَ،
+        إِنَّ صَلَاتِي، وَنُسُكِي، وَمَحْيَايَ، وَمَمَاتِي للهِ رَبِّ الْعَالَمِينَ،
+        لَا شَرِيكَ لَهُ وَبِذَلِكَ أُمِرْتُ وَأَنَا مِنَ الْمُسْلِمِينَ. اللَّهُمَّ أَنْتَ
+        الْمَلِكُ لَا إِلَهَ إِلَّا أَنْتَ، أَنْتَ رَبِّي وَأَنَا عَبْدُكَ، ظَلَمْتُ نَفْسِي
+        وَاعْتَرَفْتُ بَذَنْبِي فَاغْفِرْ لِي ذُنُوبِي جَمِيعاً إِنَّهُ لَا يَغْفِرُ
+        الذُّنُوبَ إِلَّا أَنْتَ، وَاهْدِنِي لأّحْسَنِ الْأَخْلَاقِ لَا يَهْدِي لأَحْسَنِهَا
+        إِلَّا أَنْتَ، وَاصْرِفْ عَنِّي سَيِّئَهَا لَا يَصْرِفُ عَنِّي سَيِّئَهَا إِلَّا أَنْتَ،
+        لَبَّيْكَ وَسَعْدَيْكَ، وَالْخَيْرُ كُلُّهُ بِيَدَيْكَ، وَالشَّرُّ لَيْسَ إِلَيْكَ،
+        أَنَا بِكَ وَإِلَيْكَ، تَبَارَكْتَ وَتَعَالَيْتَ، أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ</string>
+    <string name="tc15">I have turned my face sincerely towards He who has brought
+        forth the heavens and the Earth and I am not of those who associate (others with Allah)
+        . Indeed my prayer, my sacrifice, my life and my death are for Allah, Lord of the worlds,
+        no partner has He, with this I am commanded and I am of the Muslims. O Allah, You are the
+        Sovereign, none has the right to be worshipped except You. You are my Lord and I am Your
+        servant, I have wronged my own soul and have acknowledged my sin, so forgive me all my sins
+        for no one forgives sins except You. Guide me to the best of characters for none can guide
+        to it other than You, and deliver me from the worst of characters for none can deliver me
+        from it other than You. Here I am, in answer to Your call, happy to serve you. All good is
+        within Your hands and evil does not stem from You. I exist by your will and will return
+        to you. Blessed and High are You, I seek Your forgiveness and repent unto You</string>
     <string name="dc16" translatable="false">سُبْـحانَ رَبِّـيَ الْعَظـيم . (ثلاثاً)</string>
     <string name="tc16">How perfect my Lord is, The Supreme. (three times)</string>
     <string name="dc17" translatable="false">سَمِـعَ اللهُ لِمَـنْ حَمِـدَه</string>
@@ -368,8 +381,8 @@
         up to the ankles. Make sure you wash between your toes, too. Do the same to your left foot.
         Remember: Once Wudu is performed, it does not need to (but can) be performed
         again until it is invalidated.</string>
-    <string name="bannerid" translatable="false" >ca-app-pub-2868811788162661/8748513167</string>
-    <string name="quooadtext" translatable="false" >If the required number of Rakats is two the salat would proceed to next recitaion.</string>
+    <string name="bannerid" translatable="false">ca-app-pub-2868811788162661/8748513167</string>
+    <string name="quooadtext" translatable="false">If the required number of Rakats is two the salat would proceed to next recitaion.</string>
     <string name="quood" translatable="false">Quood</string>
     <string name="play_tashhad" translatable="false">Play Tashhad</string>
     <string name="durood_ibraheem" translatable="false">Durood Ibraheem</string>
@@ -379,7 +392,29 @@
     <string name="takbeer">Takbeer</string>
     <string name="qayam">Qayam</string>
     <string name="play_bismillah">Play Bismillah</string>
-    <string name="takbeer">Takbeer</string>
+
+    <string name="learn_ablution">Learn Ablution</string>
+    <string name="learn_dua_s">Learn DUA\'s</string>
+    <string name="learn_wudu">Learn WUDU</string>
+    <string name="learn_namaz">Learn Namaz</string>
+    <string name="kaba">Kaba</string>
+    <string name="madina">Madina</string>
+    <string name="url1">https://github.com/tanveerahmedmemon121/mmm/raw/master/duawakeup.mp3</string>
+    <string name="url2">https://github.com/tanveerahmedmemon121/mmm/raw/master/duanewclothes.mp3</string>
+    <string name="url3">https://github.com/tanveerahmedmemon121/mmm/raw/master/market.mp3</string>
+    <string name="url4">https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3</string>
+    <string name="url5">https://github.com/tanveerahmedmemon121/mmm/raw/master/beforeundress.mp3</string>
+    <string name="url6">https://github.com/tanveerahmedmemon121/mmm/raw/master/befortoilet.mp3</string>
+    <string name="url7">https://github.com/tanveerahmedmemon121/mmm/raw/master/leavingtoilet.mp3</string>
+    <string name="shahada">https://github.com/tanveerahmedmemon121/mmm/raw/master/shahada.mp3</string>
+    <string name="leavinghometrans">https://github.com/tanveerahmedmemon121/mmm/raw/master/leavinghome.mp3</string>
+    <string name="enterhometrans">https://github.com/tanveerahmedmemon121/mmm/raw/master/enterhome.mp3</string>
+    <string name="goingmosqutrans">https://github.com/tanveerahmedmemon121/mmm/raw/master/goingmosque.mp3</string>
+    <string name="dakhilmasjid">https://github.com/tanveerahmedmemon121/mmm/raw/master/enteringmosque.mp3</string>
+    <string name="leavemasjid">https://github.com/tanveerahmedmemon121/mmm/raw/master/leavemouque.mp3</string>
+    <string name="afterazan">https://github.com/tanveerahmedmemon121/mmm/raw/master/afterazan.mp3</string>
+    <string name="needtorecite">https://github.com/tanveerahmedmemon121/mmm/raw/master/needsomeone.mp3</string>
+    <string name="hadith">The Prophet (ﷺ) observed the fast on the 10th of Muharram (\'Ashura), and ordered (Muslims) to fast on that day, but when the fasting of the month of Ramadan was prescribed, the fasting of the \'Ashura\' was abandoned. `Abdullah did not use to fast on that day unless it coincided with his routine fasting by chance.</string>
 
 
     <string-array name="language_array">

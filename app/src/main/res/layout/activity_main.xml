@@ -19,7 +19,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="Madina" />
+        android:contentDescription="@string/madina" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -31,7 +31,7 @@
         android:src="@drawable/kaba"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="Kaba" />
+        android:contentDescription="@string/kaba" />
 
     <Button
         android:id="@+id/namaz"
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="92dp"
         android:background="@drawable/btn"
-        android:text="Learn Namaz"
+        android:text="@string/learn_namaz"
         android:textColor="#78FF63"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -55,7 +55,7 @@
         android:layout_marginTop="92dp"
         android:background="@drawable/btn"
 
-        android:text="Learn WUDU"
+        android:text="@string/learn_wudu"
         android:textColor="#78FF63"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -72,7 +72,7 @@
         android:layout_marginTop="40dp"
         android:background="@drawable/btn"
 
-        android:text="Learn DUA's"
+        android:text="@string/learn_dua_s"
         android:textColor="#78FF63"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -88,7 +88,7 @@
         android:layout_marginTop="40dp"
         android:background="@drawable/btn"
 
-        android:text="Learn Ablution"
+        android:text="@string/learn_ablution"
         android:textColor="#78FF63"
         android:textSize="26sp"
         android:textStyle="bold"

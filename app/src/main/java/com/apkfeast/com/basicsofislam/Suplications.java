@@ -21,6 +21,7 @@ public class Suplications extends AppCompatActivity {
     private String dua1;
     private String trans1;
     private RecyclerView mRecyclerview;
+    String Url;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -152,102 +153,119 @@ public class Suplications extends AppCompatActivity {
                         title = getString(R.string.WhenWakingUp);
                         dua1 = getString(R.string.wakedua1);
                         trans1 = getString(R.string.tr1);
+                        Url = getString(R.string.url1);
                         showDua();
                         break;
                     case 1:
                         title = getString(R.string.wearinggarment);
                         dua1 = getString(R.string.dc1);
                         trans1 = getString(R.string.tc1);
+                        Url = getString(R.string.url2);
                         showDua();
                         break;
                     case 2:
                         title = (getString(R.string.market));
                         dua1 = getString(R.string.tc2);
                         trans1 = getString(R.string.trcase2);
+                        Url = getString(R.string.url3);
                         showDua();
                         break;
                     case 3:
                         title = getString(R.string.someonewearnewgar);
                         dua1 = getString(R.string.dc3);
                         trans1 = getString(R.string.tc3);
+                        Url = getString(R.string.url4);
                         showDua();
                         break;
                     case 4:
                         title = getString(R.string.beforeundress);
                         dua1 = getString(R.string.dc4);
                         trans1 = getString(R.string.tc4);
+                        Url = getString(R.string.url5);
                         showDua();
                         break;
                     case 5:
                         title = getString(R.string.beforetoilet);
                         dua1 = getString(R.string.dc5);
                         trans1 = getString(R.string.tc5);
+                        Url = getString(R.string.url6);
                         showDua();
                         break;
                     case 6:
                         title = getString(R.string.leavingtoilet);
                         dua1 = getString(R.string.dc6);
                         trans1 = getString(R.string.tc6);
+                        Url = getString(R.string.url7);
                         showDua();
                         break;
                     case 7:
                         title = getString(R.string.startablution);
                         dua1 = getString(R.string.tc7);
                         trans1 = getString(R.string.tc7ac);
+                        Url = getString(R.string.url5);
                         showDua();
                         break;
                     case 8:
                         title = getString(R.string.completeablution);
                         dua1 = getString(R.string.dc8);
                         trans1 = getString(R.string.tc8);
+                        Url = getString(R.string.shahada);
                         showDua();
                         break;
                     case 9:
                         title = getString(R.string.leavinghome);
                         dua1 = getString(R.string.dc9);
                         trans1 = getString(R.string.tc9);
+                        Url = getString(R.string.leavinghometrans);
                         showDua();
                         break;
                     case 10:
                         title = getString(R.string.enteringhome);
                         dua1 = getString(R.string.dc10);
                         trans1 = getString(R.string.tc10);
+                        Url = getString(R.string.enterhometrans);
                         showDua();
                         break;
                     case 11:
                         title = getString(R.string.goingtomosque);
                         dua1 = getString(R.string.dc11);
                         trans1 = getString(R.string.tc11);
+                        Url = getString(R.string.goingmosqutrans);
                         showDua();
                         break;
                     case 12:
                         title = getString(R.string.enteringmosque);
                         dua1 = getString(R.string.dc12);
                         trans1 = getString(R.string.tc12);
+                        Url = getString(R.string.dakhilmasjid);
                         showDua();
                         break;
                     case 13:
                         title = getString(R.string.leavemosque);
                         dua1 = getString(R.string.dc13);
                         trans1 = getString(R.string.tc13);
+                        Url = getString(R.string.leavemasjid);
                         showDua();
                         break;
                     case 14:
                         title = getString(R.string.azan);
                         dua1 = getString(R.string.dc14);
                         trans1 = getString(R.string.tc14);
+                        Url = getString(R.string.afterazan);
                         showDua();
                         break;
                     case 15:
                         title = getString(R.string.aftertakbeer);
                         dua1 = getString(R.string.dc15);
                         trans1 = getString(R.string.tc15);
+                        Url = getString(R.string.needtorecite);
                         showDua();
                         break;
                     case 16:
                         title = getString(R.string.rukooa);
                         dua1 = getString(R.string.dc16);
                         trans1 = getString(R.string.tc16);
+                        Url = String.valueOf(R.raw.rukoo);
                         showDua();
                         break;
                     case 17:
@@ -470,6 +488,7 @@ public class Suplications extends AppCompatActivity {
         intent.putExtra("title", title);
         intent.putExtra("dua1", dua1);
         intent.putExtra("trans1", trans1);
+        intent.putExtra("url", Url);
         startActivity(intent);
     }
 }
