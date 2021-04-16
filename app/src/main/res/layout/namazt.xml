@@ -1,130 +1,460 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background">
+    android:background="@android:color/holo_green_dark">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/takbeer"
+
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:elevation="5dp"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="lollipop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
 
 
-    <Button
-        android:id="@+id/takbeer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:background="@drawable/btn"
-        android:text="@string/takbeer"
-        android:textColor="@color/textcolor"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/Qayam"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/btn"
-        android:text="@string/qayam"
-        android:textColor="@color/textcolor"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/takbeer" />
-
-    <Button
-        android:id="@+id/ruku"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/btn"
-        android:text="RUKU"
-        android:textColor="@color/textcolor"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Qayam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15.4dp"
+                    android:layout_marginTop="15.4dp"
+                    android:lineSpacingExtra="2.8sp"
+                    android:text="@string/takbeer"
+                    android:textColor="#131314"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
 
-    <Button
-        android:id="@+id/Qayama"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/btn"
-        android:text="Qayam"
-        android:textColor="@color/textcolor"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ruku" />
-
-    <Button
-        android:id="@+id/sajda"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/btn"
-        android:text="Sajda"
-        android:textColor="@color/textcolor"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Qayama" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15.4dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/takbeer"
+                    android:src="@drawable/takbeerlogo" />
 
 
-    <Button
-        android:id="@+id/quood"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/btn"
-        android:text="QUOOD"
-        android:textColor="@color/textcolor"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sajda" />
-
-    <Button
-        android:id="@+id/salam"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/btn"
-        android:text="Salam"
-        android:textColor="@color/textcolor"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quood" />
-
-    <RelativeLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <com.google.android.gms.ads.AdView
-            android:id="@+id/namazad"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-
-            app:adSize="BANNER"
-            app:adUnitId="@string/bannerid" />
-
-    </RelativeLayout>
+            </LinearLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/qayam"
+
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:elevation="0dp"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="lollipop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15.4dp"
+                    android:layout_marginTop="15.4dp"
+                    android:lineSpacingExtra="2.8sp"
+                    android:text="@string/qayam"
+                    android:textColor="#131314"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15.4dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/qayam"
+                    android:src="@drawable/qayamlogo" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rukoo"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_margin="15dp"
+            android:elevation="0dp"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/takbeer"
+            tools:targetApi="lollipop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15.4dp"
+                    android:layout_marginTop="15.4dp"
+                    android:lineSpacingExtra="2.8sp"
+                    android:text="@string/rukoo"
+                    android:textColor="#131314"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15.4dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/rukulogo"
+                    android:contentDescription="@string/rukoo" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/qayama"
+
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:elevation="0dp"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/qayam"
+            tools:targetApi="lollipop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15.4dp"
+                    android:lineSpacingExtra="2.8sp"
+                    android:text="@string/qayam_after_ruku"
+                    android:textColor="#131314"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15.4dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/qayamalogo"
+                    android:contentDescription="@string/qayam_after_ruku" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sajda"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_margin="15dp"
+            android:elevation="0dp"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rukoo"
+            tools:targetApi="lollipop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15.4dp"
+                    android:layout_marginTop="15.4dp"
+                    android:lineSpacingExtra="2.8sp"
+                    android:text="@string/sajda"
+                    android:textColor="#131314"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15.4dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sajdalogo"
+                    android:contentDescription="@string/sajda" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/quood"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_margin="15dp"
+            android:elevation="0dp"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/qayama"
+            tools:targetApi="lollipop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15.4dp"
+                    android:layout_marginTop="15.4dp"
+                    android:lineSpacingExtra="2.8sp"
+                    android:text="@string/quood"
+                    android:textColor="#131314"
+                    android:textSize="16.2sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15.4dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/quoodlogo"
+                    android:contentDescription="@string/quood" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/salam"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            android:elevation="0dp"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/quood"
+            tools:targetApi="lollipop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15.4dp"
+                    android:layout_marginTop="15.4dp"
+                    android:lineSpacingExtra="2.8sp"
+                    android:text="@string/salam"
+                    android:textColor="#131314"
+                    android:textSize="16.2sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_margin="15.4dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:foregroundGravity="left"
+                    android:src="@drawable/salamlogo"
+                    android:contentDescription="@string/salam" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <!--    <Button-->
+        <!--        android:id="@+id/takbeer"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginTop="25dp"-->
+        <!--        android:background="@drawable/btn"-->
+        <!--        android:text="@string/takbeer"-->
+        <!--        android:textColor="@color/textcolor"-->
+        <!--        android:textSize="30sp"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintHorizontal_bias="0.495"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+        <!--    <Button-->
+        <!--        android:id="@+id/Qayam"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginTop="20dp"-->
+        <!--        android:background="@drawable/btn"-->
+        <!--        android:text="@string/qayam"-->
+        <!--        android:textColor="@color/textcolor"-->
+        <!--        android:textSize="30sp"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintHorizontal_bias="0.495"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@+id/takbeer" />-->
+
+        <!--    <Button-->
+        <!--        android:id="@+id/ruku"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginTop="20dp"-->
+        <!--        android:background="@drawable/btn"-->
+        <!--        android:text="RUKU"-->
+        <!--        android:textColor="@color/textcolor"-->
+        <!--        android:textSize="30dp"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintHorizontal_bias="0.495"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@+id/Qayam" />-->
+
+
+        <!--    <Button-->
+        <!--        android:id="@+id/Qayama"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginTop="20dp"-->
+        <!--        android:background="@drawable/btn"-->
+        <!--        android:text="Qayam"-->
+        <!--        android:textColor="@color/textcolor"-->
+        <!--        android:textSize="30dp"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintHorizontal_bias="0.495"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@+id/ruku" />-->
+
+        <!--    <Button-->
+        <!--        android:id="@+id/sajda"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginTop="20dp"-->
+        <!--        android:background="@drawable/btn"-->
+        <!--        android:text="Sajda"-->
+        <!--        android:textColor="@color/textcolor"-->
+        <!--        android:textSize="30dp"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintHorizontal_bias="0.495"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@+id/Qayama" />-->
+
+
+        <!--    <Button-->
+        <!--        android:id="@+id/quood"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginTop="20dp"-->
+        <!--        android:background="@drawable/btn"-->
+        <!--        android:text="QUOOD"-->
+        <!--        android:textColor="@color/textcolor"-->
+        <!--        android:textSize="30dp"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintHorizontal_bias="0.495"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@+id/sajda" />-->
+
+        <!--    <Button-->
+        <!--        android:id="@+id/salam"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginTop="20dp"-->
+        <!--        android:background="@drawable/btn"-->
+        <!--        android:text="Salam"-->
+        <!--        android:textColor="@color/textcolor"-->
+        <!--        android:textSize="30dp"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintHorizontal_bias="0.495"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@+id/quood" />-->
+
+        <!--    <RelativeLayout-->
+        <!--        android:layout_width="0dp"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginBottom="10dp"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintTop_toTopOf="parent">-->
+
+        <!--        <com.google.android.gms.ads.AdView-->
+        <!--            android:id="@+id/namazad"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            android:layout_centerHorizontal="true"-->
+
+        <!--            app:adSize="BANNER"-->
+        <!--            app:adUnitId="@string/bannerid" />-->
+
+        <!--    </RelativeLayout>-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -19,8 +19,6 @@ import androidx.cardview.widget.CardView;
 
 import com.bumptech.glide.Glide;
 
-import java.util.Set;
-
 public class MainActivity extends AppCompatActivity {
 
     private CardView namaz, wudu, ablution, supplication;
@@ -90,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void InitializeUI() {
         namaz = findViewById(R.id.LearnNamaz);
-        wudu = findViewById(R.id.learnwudu);
+        wudu = findViewById(R.id.qayam);
         ablution = findViewById(R.id.ablution);
         supplication = findViewById(R.id.supp);
         hadith = findViewById(R.id.hadith);

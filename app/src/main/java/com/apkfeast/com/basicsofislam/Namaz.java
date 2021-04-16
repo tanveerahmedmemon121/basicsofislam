@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -16,7 +17,7 @@ import com.google.android.gms.ads.initialization.OnInitializationCompleteListene
 
 public class Namaz extends AppCompatActivity {
 
-    private Button takbeer, qayyam, ruku, qayama, sajda, quood, salam;
+    private CardView takbeer, qayyam, ruku, qayama, sajda, quood, salam;
     private AdView NAMAZAD;
     private InterstitialAd iad;
 
@@ -25,8 +26,7 @@ public class Namaz extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.namazt);
         InitializeUI();
-        LoadAds();
-        Interstitialshow();
+
         takbeer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -179,33 +179,17 @@ public class Namaz extends AppCompatActivity {
     }
 
     private void InitializeUI() {
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {
 
-            }
-        });
 
         takbeer = findViewById(R.id.takbeer);
-        qayyam = findViewById(R.id.Qayam);
-        ruku = findViewById(R.id.ruku);
-        qayama = findViewById(R.id.Qayama);
+        qayyam = findViewById(R.id.qayam);
+        ruku = findViewById(R.id.rukoo);
+        qayama = findViewById(R.id.qayama);
         sajda = findViewById(R.id.sajda);
         quood = findViewById(R.id.quood);
         salam = findViewById(R.id.salam);
-        NAMAZAD = findViewById(R.id.namazad);
-        iad = new InterstitialAd(this);
-        iad.setAdUnitId(getString(R.string.Inters));
     }
 
-    private void LoadAds() {
-        NAMAZAD.loadAd(new AdRequest.Builder().build());
-        iad.loadAd(new AdRequest.Builder().build());
-    }
 
-    private void Interstitialshow() {
-        if (iad.isLoaded()) {
-            iad.show();
-        }
-    }
 }
+

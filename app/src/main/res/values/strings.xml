@@ -389,32 +389,44 @@
     <string name="play_dua" translatable="false">Play Dua</string>
     <string name="salam" translatable="false">Salam</string>
     <string name="salam_play" translatable="false">salam play</string>
-    <string name="takbeer">Takbeer</string>
-    <string name="qayam">Qayam</string>
-    <string name="play_bismillah">Play Bismillah</string>
+    <string name="takbeer" translatable="false">Takbeer</string>
+    <string name="qayam" translatable="false">Qayam</string>
+    <string name="play_bismillah" translatable="false">Play Bismillah</string>
+    <string name="learn_dua_s" translatable="false">Learn DUA\'s</string>
+    <string name="learn_wudu" translatable="false">Learn WUDU</string>
+    <string name="learn_namaz" translatable="false">Learn Namaz</string>
+    <string name="kaba" translatable="false">Kaba</string>
+    <string name="madina" translatable="false">Madina</string>
+    <string name="url1" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/duawakeup.mp3</string>
+    <string name="url2" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/duanewclothes.mp3</string>
+    <string name="url3" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/market.mp3</string>
+    <string name="url4" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3</string>
+    <string name="url5" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/beforeundress.mp3</string>
+    <string name="url6" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/befortoilet.mp3</string>
+    <string name="url7" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/leavingtoilet.mp3</string>
+    <string name="shahada" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/shahada.mp3</string>
+    <string name="leavinghometrans" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/leavinghome.mp3</string>
+    <string name="enterhometrans" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/enterhome.mp3</string>
+    <string name="goingmosqutrans" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/goingmosque.mp3</string>
+    <string name="dakhilmasjid" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/enteringmosque.mp3</string>
+    <string name="leavemasjid" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/leavemouque.mp3</string>
+    <string name="afterazan" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/afterazan.mp3</string>
+    <string name="needtorecite" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/needsomeone.mp3</string>
+    <string name="hadith" translatable="false">The Prophet (ﷺ) observed the fast on the 10th of Muharram (\'Ashura), and ordered (Muslims) to fast on that day, but when the fasting of the month of Ramadan was prescribed, the fasting of the \'Ashura\' was abandoned. `Abdullah did not use to fast on that day unless it coincided with his routine fasting by chance.</string>
+    <string name="learn_salah_step_by_step" translatable="false">Learn Salah Step by step</string>
+    <string name="kid_offering_salah" translatable="false">Kid offering salah</string>
+    <string name="learn_wudu_step_by_step" translatable="false">Learn Wudu Step by Step</string>
+    <string name="man_doing_wudu" translatable="false">Man doing wudu</string>
+    <string name="learnsupp" translatable="false">Supplications</string>
 
-    <string name="learn_ablution">Learn Ablution</string>
-    <string name="learn_dua_s">Learn DUA\'s</string>
-    <string name="learn_wudu">Learn WUDU</string>
-    <string name="learn_namaz">Learn Namaz</string>
-    <string name="kaba">Kaba</string>
-    <string name="madina">Madina</string>
-    <string name="url1">https://github.com/tanveerahmedmemon121/mmm/raw/master/duawakeup.mp3</string>
-    <string name="url2">https://github.com/tanveerahmedmemon121/mmm/raw/master/duanewclothes.mp3</string>
-    <string name="url3">https://github.com/tanveerahmedmemon121/mmm/raw/master/market.mp3</string>
-    <string name="url4">https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3</string>
-    <string name="url5">https://github.com/tanveerahmedmemon121/mmm/raw/master/beforeundress.mp3</string>
-    <string name="url6">https://github.com/tanveerahmedmemon121/mmm/raw/master/befortoilet.mp3</string>
-    <string name="url7">https://github.com/tanveerahmedmemon121/mmm/raw/master/leavingtoilet.mp3</string>
-    <string name="shahada">https://github.com/tanveerahmedmemon121/mmm/raw/master/shahada.mp3</string>
-    <string name="leavinghometrans">https://github.com/tanveerahmedmemon121/mmm/raw/master/leavinghome.mp3</string>
-    <string name="enterhometrans">https://github.com/tanveerahmedmemon121/mmm/raw/master/enterhome.mp3</string>
-    <string name="goingmosqutrans">https://github.com/tanveerahmedmemon121/mmm/raw/master/goingmosque.mp3</string>
-    <string name="dakhilmasjid">https://github.com/tanveerahmedmemon121/mmm/raw/master/enteringmosque.mp3</string>
-    <string name="leavemasjid">https://github.com/tanveerahmedmemon121/mmm/raw/master/leavemouque.mp3</string>
-    <string name="afterazan">https://github.com/tanveerahmedmemon121/mmm/raw/master/afterazan.mp3</string>
-    <string name="needtorecite">https://github.com/tanveerahmedmemon121/mmm/raw/master/needsomeone.mp3</string>
-    <string name="hadith">The Prophet (ﷺ) observed the fast on the 10th of Muharram (\'Ashura), and ordered (Muslims) to fast on that day, but when the fasting of the month of Ramadan was prescribed, the fasting of the \'Ashura\' was abandoned. `Abdullah did not use to fast on that day unless it coincided with his routine fasting by chance.</string>
+    <string name="hadith_of_the_dayy" translatable="false">Hadith Of The Dayy</string>
+    <string name="rukoo" translatable="false">Rukoo</string>
+    <string name="qayam_after_ruku" translatable="false">Qayam after Ruku</string>
+    <string name="sajda" translatable="false">Sajda</string>
+    <string name="supplications" translatable="false">Supplications</string>
+    <string name="_50_routine_life_supplications" translatable="false">50 Routine life supplications</string>
+    <string name="learn_ablution" translatable="false">Learn Ablution</string>
+    <string name="learn_ablution_step_by_step" translatable="false">Learn Ablution Step by step</string>
 
 
     <string-array name="language_array">
