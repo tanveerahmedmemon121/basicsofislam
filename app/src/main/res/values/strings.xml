@@ -196,13 +196,8 @@
         ِّ ما بَعْـدَهـا ، رَبِّ أَعـوذُبِكَ مِنَ الْكَسَـلِ وَسـوءِ الْكِـبَر ،
         رَبِّ أَعـوذُبِكَ مِنْ عَـذابٍ في النّـارِ وَعَـذابٍ في القَـبْر .</string>
     <string name="tc26">In morning</string>
-    <string name="dc27" translatable="false">{اللّهُ لاَ إِلَـهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَّهُ مَا فِي السَّمَاوَاتِ
-        وَمَا فِي الأَرْضِ مَن ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أ
-        َيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلاَّ بِمَا شَاء وَسِعَ
-        كُرْسِيُّهُ السَّمَوَاتِ وَالأَرْضَ وَلاَ يَؤُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ }</string>
-    <string name="tc27">The Prophet (S) also said: ‘When you are about to sleep recite ayat-al-kursee
-        (The verse of the foot-stool, chapter 2:255) till the end of the verse for there will
-        remain over you a protection from Allah and no devil will draw near to you until morning.’</string>
+    <string name="dc27" translatable="false">ُّاللَّهُمَّ قِنِي عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ.</string>
+    <string name="tc27">O Allah, protect me from Your punishment on the day Your servants are resurrected.’</string>
     <string name="dc28" translatable="false">لا إِلَهَ~َ إِلاَّ اللَّهُ الوَاحِدُ القَهَّارُ،
         رَبُّ السَّمَوَاتِ وَالأَرْضِ وَمَا بَيْنَهُمَا، العَزِيْزُ الغَفَّارُ</string>
     <string name="tc28">Aisha narrated that the Messenger of Allah (saw) used to say at night if he
@@ -221,11 +216,15 @@
         لا يُحَدِّثُ بِهَا أَحَداً. يَتَحَوَّلُ عَنْ جَنْبِهِ الَّذِي كَانَ عَلَيْهِ.</string>
     <string name="tc30">‘The righteous dream is from Allah and the bad dream is from the devil,
         so if anyone sees something which pleases him then he should only relate it to one whom he loves…\'</string>
-    <string name="dc31" translatable="false">اللَّهُمَّ إِنِّي أَعُوْذُ بِرِضَاكَ مِنْ سَخَطِكَ، وَبِمُعَافَاتِكَ مِنْ عُقُوْبَتِكَ، وَأَعُوْذُ بِكَ مِنْكَ،
-        لا أُحْصِي ثَنَاءً عَلَيْكَ، أَنْتَ كَمَا أَثْنَيْتَ عَلَى نَفْسِكَ</string>
-    <string name="tc31">‘O Allah, I take refuge within Your pleasure from Your displeasure and
-        within Your pardon from Your punishment, and I take refuge in You from You.
-        I cannot enumerate Your praise. You are as You have praised Yourself.’</string>
+    <string name="dc31" translatable="false">اَللَّهُمَّ إنا نَسْتَعِينُكَ وَنَسْتَغْفِرُكَ وَنُؤْمِنُ بِكَ وَنَتَوَكَّلُ عَلَيْكَ وَنُثْنِئْ عَلَيْكَ الخَيْرَ وَنَشْكُرُكَ
+        وَلَا نَكْفُرُكَ وَنَخْلَعُ وَنَتْرُكُ مَنْ ئَّفْجُرُكَ اَللَّهُمَّ إِيَّاكَ نَعْبُدُ وَلَكَ نُصَلِّئ وَنَسْجُدُ
+        وَإِلَيْكَ نَسْعأئ وَنَحْفِدُ وَنَرْجُو رَحْمَتَكَ وَنَخْشآئ عَذَابَكَ إِنَّ عَذَابَكَ بِالكُفَّارِ مُلْحَقٌَ</string>
+    <string name="tc31">O Allah! We implore You for help and beg forgiveness of You and believe in You
+        and rely on You and extol You and we are thankful to You and are not ungrateful to You and we
+        alienate and forsake those who disobey You. O Allah! You alone do we worship and for You do we
+        pray and prostrate and we betake to please You and present ourselves for the service in Your
+        cause and we hope for Your mercy and fear Your chastisement. Undoubtedly, Your torment is going
+        to overtake infidels O Allah!</string>
     <string name="dc32" translatable="false">سَبِّحِ اِسْمَ رَبِّكَ الأَعْلَى (قُلْ يَا أَيُّهَا الكَافِرُوْنَ…) (قُلْ هُوَ الله
         ُ أَحَدٌ…) سبْحَانَ المَلِكِ القُدُّوْسِ (ثَلاثَ مَرَّات) وَالثَّالِثَةُ
         يَجْهَرُ بِهَا وَيَمُدُّ بِهَا صَوْتَهُ، [ رَبِّ المَلائِكَةِ وَالرُّوْحِ]</string>
@@ -427,6 +426,7 @@
     <string name="_50_routine_life_supplications" translatable="false">50 Routine life supplications</string>
     <string name="learn_ablution" translatable="false">Learn Ablution</string>
     <string name="learn_ablution_step_by_step" translatable="false">Learn Ablution Step by step</string>
+    <string name="rukoourl" translatable="false">https://github.com/tanveerahmedmemon121/mmm/raw/master/rukoo.wav</string>
 
 
     <string-array name="language_array">

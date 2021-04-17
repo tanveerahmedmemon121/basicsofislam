@@ -1,5 +1,6 @@
 package com.apkfeast.com.basicsofislam;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -23,6 +24,7 @@ public class Suplications extends AppCompatActivity {
     private RecyclerView mRecyclerview;
     String Url;
 
+    @SuppressLint("CutPasteId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,9 +32,8 @@ public class Suplications extends AppCompatActivity {
         mRecyclerview = findViewById(R.id.recyclerview);
         supad = findViewById(R.id.supad);
 
-        MobileAds.initialize(this, getString(R.string.APP_ID));
-        supad.loadAd(new AdRequest.Builder().build());
-        ArrayList<DuaItem> mDuaList = new ArrayList<DuaItem>();
+
+        ArrayList<DuaItem> mDuaList = new ArrayList<>();
 
         mDuaList.add(new DuaItem(getString(R.string.WhenWakingUp)));
         //1
@@ -265,211 +266,245 @@ public class Suplications extends AppCompatActivity {
                         title = getString(R.string.rukooa);
                         dua1 = getString(R.string.dc16);
                         trans1 = getString(R.string.tc16);
-                        Url = String.valueOf(R.raw.rukoo);
+                        Url = getString(R.string.rukoourl);
                         showDua();
                         break;
                     case 17:
                         title = getString(R.string.risingrukoo);
                         dua1 = getString(R.string.dc17);
                         trans1 = getString(R.string.tc17);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/qayam.wav";
                         showDua();
                         break;
                     case 18:
                         title = getString(R.string.duringsujood);
                         dua1 = getString(R.string.dc18);
                         trans1 = getString(R.string.tc18);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/sajdah.wav";
                         showDua();
                         break;
                     case 19:
                         title = getString(R.string.betweensujood);
                         dua1 = getString(R.string.dc19);
                         trans1 = getString(R.string.tc19);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 20:
                         title = getString(R.string.afterrecquran);
                         dua1 = getString(R.string.dc20);
                         trans1 = getString(R.string.tc20);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 21:
                         title = getString(R.string.tashahhud);
                         dua1 = getString(R.string.dc21);
                         trans1 = getString(R.string.tc21);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/tashhad.mp3";
                         showDua();
                         break;
                     case 22:
                         title = getString(R.string.aftertashahhud);
                         dua1 = getString(R.string.dc22);
                         trans1 = getString(R.string.tc22);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/durood.mp3";
                         showDua();
                         break;
                     case 23:
                         title = getString(R.string.beforesalam);
                         dua1 = getString(R.string.dc23);
                         trans1 = getString(R.string.tc23);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 24:
                         title = getString(R.string.aftersalam);
                         dua1 = getString(R.string.dc24);
                         trans1 = getString(R.string.tc24);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 25:
                         title = getString(R.string.istikhara);
                         dua1 = getString(R.string.dc25);
                         trans1 = getString(R.string.tc25);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/duaIstikhara.mp3";
                         showDua();
                         break;
                     case 26:
                         title = getString(R.string.inmornandeve);
                         dua1 = getString(R.string.dc26);
                         trans1 = getString(R.string.tc26);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/morningdua.mp3";
                         showDua();
                         break;
                     case 27:
                         title = getString(R.string.beforesleeping);
                         dua1 = getString(R.string.dc27);
                         trans1 = getString(R.string.tc27);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/beforesleeping.mp3";
                         showDua();
                         break;
                     case 28:
                         title = getString(R.string.duringturningnight);
                         dua1 = getString(R.string.dc28);
                         trans1 = getString(R.string.tc28);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 29:
                         title = getString(R.string.feelingunrestsleep);
                         dua1 = getString(R.string.dc29);
                         trans1 = getString(R.string.tc29);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/sleepfear.mp3";
                         showDua();
                         break;
                     case 30:
                         title = getString(R.string.upondream);
                         dua1 = getString(R.string.dc30);
                         trans1 = getString(R.string.tc30);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 31:
                         title = getString(R.string.qunootalwitr);
                         dua1 = getString(R.string.dc31);
                         trans1 = getString(R.string.tc31);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/dua-e-qunoot.mp3";
                         showDua();
                         break;
                     case 32:
                         title = getString(R.string.aftersalamofwitr);
                         dua1 = getString(R.string.dc32);
                         trans1 = getString(R.string.tc32);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 33:
                         title = getString(R.string.foranxiety);
                         dua1 = getString(R.string.dc33);
                         trans1 = getString(R.string.tc33);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/sad.mp3";
                         showDua();
                         break;
                     case 34:
                         title = getString(R.string.oneindistress);
                         dua1 = getString(R.string.dc34);
                         trans1 = getString(R.string.tc34);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 35:
                         title = getString(R.string.encounteringenemy);
                         dua1 = getString(R.string.dc35);
                         trans1 = getString(R.string.tc35);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/encenemy.mp3";
                         showDua();
                         break;
                     case 36:
                         title = getString(R.string.doubtinfaith);
                         dua1 = getString(R.string.dc36);
                         trans1 = getString(R.string.tc36);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/dbtfaith.mp3";
                         showDua();
                         break;
                     case 37:
                         title = getString(R.string.settleadebt);
                         dua1 = getString(R.string.dc37);
                         trans1 = getString(R.string.tc37);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 38:
                         title = getString(R.string.whisperinginprayer);
                         dua1 = getString(R.string.dc38);
                         trans1 = getString(R.string.tc38);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 39:
                         title = getString(R.string.affairsdifficult);
                         dua1 = getString(R.string.dc39);
                         trans1 = getString(R.string.tc39);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/afdiff.mp3";
                         showDua();
                         break;
                     case 40:
                         title = getString(R.string.sin);
                         dua1 = getString(R.string.dc40);
                         trans1 = getString(R.string.tc40);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 41:
                         title = getString(R.string.expelldevil);
                         dua1 = getString(R.string.dc41);
                         trans1 = getString(R.string.tc41);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 42:
                         title = getString(R.string.mishap);
                         dua1 = getString(R.string.dc42);
                         trans1 = getString(R.string.tc42);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 43:
                         title = getString(R.string.childrenprotec);
                         dua1 = getString(R.string.dc43);
                         trans1 = getString(R.string.tc43);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 44:
                         title = getString(R.string.visitingsic);
                         dua1 = getString(R.string.dc44);
                         trans1 = getString(R.string.tc44);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/visitsick.mp3";
                         showDua();
                         break;
                     case 45:
                         title = getString(R.string.sickexcel);
                         dua1 = getString(R.string.dc45);
                         trans1 = getString(R.string.tc45);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/visitsick.mp3";
                         showDua();
                         break;
                     case 46:
                         title = getString(R.string.losthopeforlife);
                         dua1 = getString(R.string.dc46);
                         trans1 = getString(R.string.tc46);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 47:
                         title = getString(R.string.instforoneneardeath);
                         dua1 = getString(R.string.dc47);
                         trans1 = getString(R.string.tc47);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 48:
                         title = getString(R.string.affectedcalamity);
                         dua1 = getString(R.string.dc48);
                         trans1 = getString(R.string.tc48);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/calamity.mp3";
                         showDua();
                         break;
                     case 49:
                         title = getString(R.string.closingeyesofdeceased);
                         dua1 = getString(R.string.dc49);
                         trans1 = getString(R.string.tc49);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
                     case 50:
                         title = getString(R.string.atfuneral);
                         dua1 = getString(R.string.dc50);
                         trans1 = getString(R.string.tc50);
+                        Url = "https://github.com/tanveerahmedmemon121/mmm/raw/master/someonenewgarment.mp3";
                         showDua();
                         break;
 
